@@ -29,4 +29,16 @@
   <img src="./assets/gamblora-card.svg" width="100%" alt="Gamblora — featured project" />
 </a>
 
+## 📈 Activity
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=sova80412-dotcom&hide_border=true&background=0D1117&stroke=30363D&ring=A78BFA&fire=FFB347&currStreakNum=E6EDF3&currStreakLabel=FFB347&sideNums=E6EDF3&sideLabels=A78BFA&dates=8B949E" width="100%" alt="GitHub streak" />
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sova80412-dotcom/sova80412-dotcom/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sova80412-dotcom/sova80412-dotcom/output/snake.svg" />
+  <img src="https://raw.githubusercontent.com/sova80412-dotcom/sova80412-dotcom/output/snake-dark.svg" width="100%" alt="snake eating my contributions" />
+</picture>
+
 <img src="./assets/footer.svg" width="100%" alt="thanks for visiting" />
