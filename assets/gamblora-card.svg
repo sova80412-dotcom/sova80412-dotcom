@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 236" width="860" height="236" role="img" aria-label="Gamblora — featured project">
+<defs>
+  <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ff3d8b"/><stop offset=".5" stop-color="#ffc933"/><stop offset="1" stop-color="#2fe0b0"/>
+    <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5" dur="6s" repeatCount="indefinite"/>
+  </linearGradient>
+  <radialGradient id="pinkglow" cx="0" cy="0" r="1"><stop offset="0" stop-color="#ff3d8b" stop-opacity=".22"/><stop offset="1" stop-color="#ff3d8b" stop-opacity="0"/></radialGradient>
+  <radialGradient id="mintglow" cx="1" cy="1" r="1"><stop offset="0" stop-color="#2fe0b0" stop-opacity=".14"/><stop offset="1" stop-color="#2fe0b0" stop-opacity="0"/></radialGradient>
+  <linearGradient id="sheen" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <clipPath id="cc"><rect x="2" y="2" width="856" height="232" rx="18"/></clipPath>
+</defs>
+<style>
+  .sheen{animation:sheen 7s ease-in-out infinite}
+  @keyframes sheen{0%,60%{transform:translateX(-300px) skewX(-20deg)}100%{transform:translateX(1160px) skewX(-20deg)}}
+  .ping{transform-box:fill-box;transform-origin:center;animation:ping 1.8s cubic-bezier(0,0,.2,1) infinite}
+  @keyframes ping{0%{transform:scale(1);opacity:.8}100%{transform:scale(2.6);opacity:0}}
+</style>
+<g clip-path="url(#cc)">
+  <rect width="860" height="236" fill="#0f0d16"/>
+  <rect width="860" height="236" fill="url(#pinkglow)"/>
+  <rect width="860" height="236" fill="url(#mintglow)"/>
+  <rect class="sheen" x="0" y="-40" width="160" height="316" fill="url(#sheen)"/>
+</g>
+<rect x="2" y="2" width="856" height="232" rx="18" fill="none" stroke="url(#border)" stroke-width="2.5"/>
+<svg x="32" y="30" width="76" height="76" viewBox="0 0 100 100"><defs><linearGradient id="gmF" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b8f99"/><stop offset="0.3" stop-color="#eef0f4"/><stop offset="0.55" stop-color="#9da1ab"/><stop offset="0.8" stop-color="#f2f3f6"/><stop offset="1" stop-color="#858994"/></linearGradient><clipPath id="gmS"><path d="M4 68C20 56 34 64 50 44S82 22 96 12L96 38C84 46 72 54 60 68S30 88 4 96Z"/></clipPath></defs><rect x="4" y="4" width="92" height="92" rx="20" fill="url(#gmF)"/><g clip-path="url(#gmS)"><rect x="4" y="4" width="92" height="92" rx="20" fill="#ff3d8b"/></g><path d="M50 24C59 24 65 29.5 65 38.5V42H55.2V38.8C55.2 35.6 53.4 33.8 50 33.8C46.6 33.8 44.8 35.6 44.8 38.8V61.2C44.8 64.4 46.6 66.2 50 66.2C53.4 66.2 55.2 64.4 55.2 61.2V56.4H50.4V48H65V61.5C65 70.5 59 76 50 76C41 76 35 70.5 35 61.5V38.5C35 29.5 41 24 50 24Z" fill="#141317"/></svg>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+  <text x="128" y="60" font-size="13" font-weight="600" letter-spacing="2" fill="#8b949e">FEATURED PROJECT</text>
+  <text x="126" y="98" font-size="36" font-weight="800" fill="#ffffff" textLength="168" lengthAdjust="spacingAndGlyphs">Gamblora</text>
+  <rect x="310" y="72" width="72" height="28" rx="14" fill="#2fe0b0" fill-opacity=".12" stroke="#2fe0b0" stroke-opacity=".5"/>
+  <circle class="ping" cx="328" cy="86" r="4.5" fill="#2fe0b0"/><circle cx="328" cy="86" r="4.5" fill="#2fe0b0"/>
+  <text x="340" y="91" font-size="13" font-weight="700" fill="#2fe0b0" letter-spacing="1">LIVE</text>
+  <text x="828" y="60" text-anchor="end" font-size="16" font-weight="600" fill="#ffc933">gamblora.com &#8599;</text>
+  <text x="32" y="142" font-size="16.5" fill="#d0d7de">Bilingual RU/EN casino hub: live promo codes, a bonus calendar, casino ratings,</text>
+  <text x="32" y="166" font-size="16.5" fill="#d0d7de">player reviews and a complaints desk, all in one place.</text>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#e6edf3"><rect x="32" y="188" width="80.6" height="28" rx="14" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".14"/><text x="45" y="207" textLength="54.6" lengthAdjust="spacingAndGlyphs">Next.js</text><rect x="122.6" y="188" width="104.0" height="28" rx="14" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".14"/><text x="135.6" y="207" textLength="78.0" lengthAdjust="spacingAndGlyphs">TypeScript</text><rect x="236.6" y="188" width="65.0" height="28" rx="14" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".14"/><text x="249.6" y="207" textLength="39.0" lengthAdjust="spacingAndGlyphs">React</text><rect x="311.6" y="188" width="119.6" height="28" rx="14" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".14"/><text x="324.6" y="207" textLength="93.6" lengthAdjust="spacingAndGlyphs">Tailwind CSS</text><rect x="441.20000000000005" y="188" width="80.6" height="28" rx="14" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".14"/><text x="454.20000000000005" y="207" textLength="54.6" lengthAdjust="spacingAndGlyphs">RU / EN</text><rect x="531.8000000000001" y="188" width="119.6" height="28" rx="14" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".14"/><text x="544.8000000000001" y="207" textLength="93.6" lengthAdjust="spacingAndGlyphs">Telegram bot</text></g>
+</g>
+</svg>
